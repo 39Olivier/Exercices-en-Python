@@ -2,6 +2,12 @@
 
 <div align="center">
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+<a href="https://github.com/39Olivier/feux-d-artifices/blob/main/feu_artifice.py">
+  <img src="https://img.shields.io/badge/Run-Project-4B0082?style=for-the-badge&logo=githubactions&logoColor=white" alt="Run Project" />
+</a>
+
 ```text
        .-"""-.       .-"""-.
      .'  .-.  '.   .'  .-.  '.
