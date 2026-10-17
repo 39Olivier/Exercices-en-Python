@@ -26,27 +26,26 @@
 
 </div>
 
-Petit projet visuel réalisé avec Python et Pygame pour simuler un ciel de feu d'artifice.
+Un petit projet Python visuel qui simule un ciel de feu d'artifice avec des explosions colorées et des particules animées.
 
-## ✨ Description
+## ✨ Aperçu
 
-Ce programme affiche :
-- un fond nocturne,
-- des étoiles dans le ciel,
-- des fusées qui montent,
-- des explosions colorées qui s'effondrent doucement.
-
-Le jeu est entièrement animé en temps réel et peut être contrôlé à la souris et au clavier.
+Ce programme crée une scène nocturne avec :
+- un fond sombre et immersif,
+- des étoiles en arrière-plan,
+- des fusées qui montent dans le ciel,
+- des explosions lumineuses en plusieurs couleurs,
+- des particules qui disparaissent progressivement.
 
 ## 🎮 Contrôles
 
-- Clic gauche : lancer un feu d'artifice à l'endroit du clic
+- Clic gauche : lancer un feu d'artifice à l’emplacement du clic
 - Espace : pause / reprise
 - Escape : quitter
 
 ## ⚙️ Prérequis
 
-Avant de lancer le projet, vérifie que Python est installé puis installe la dépendance suivante :
+Assurez-vous d’avoir Python installé, puis installez Pygame :
 
 ```bash
 pip install pygame
@@ -60,14 +59,14 @@ Dans le dossier du projet, exécutez :
 python feu_artifice.py
 ```
 
-## 📁 Structure du projet
+## 📁 Fichiers du projet
 
 - `feu_artifice.py` : code principal du jeu
 - `README.md` : documentation du projet
 
-## 🌟 Résultat attendu
+## 🌟 Résultat
 
-Le programme crée une scène animée avec des effets visuels lumineux, des couleurs variées et une animation fluide.
+Le programme affiche une animation fluide avec des effets lumineux, des transitions dynamiques et des couleurs variées.
 
 ## 👤 Auteur
 
