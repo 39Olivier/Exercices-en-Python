@@ -1,73 +1,79 @@
-# 🎆 Feu d'artifice en Python
+# Exercices en Python
 
-<div align="center">
+Bienvenue dans ce petit recueil d'exercices Python. Chaque script propose une
+activité visuelle pour pratiquer les bases de la programmation tout en créant
+des dessins ou des animations.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+## Objectifs
 
-<a href="https://github.com/39Olivier/feux-d-artifices/blob/main/feu_artifice.py">
-  <img src="https://img.shields.io/badge/Run-Project-4B0082?style=for-the-badge&logo=githubactions&logoColor=white" alt="Run Project" />
-</a>
+En explorant les exercices, tu pourras t'entraîner à :
 
-```text
-       .-"""-.       .-"""-.
-     .'  .-.  '.   .'  .-.  '.
-    /   /   \   \\ /   /   \   \\
-   |   |  .-.|  ||   |  .-.|  |
-    \\   \\  '-'   //   \\  '-'   //
-     '._' '._.' '._' '._.'
-         \   |   /      \   |   /
-          `-._.-'        `-._.-'
-              |                |
-             / \\__  __// \\
-            /   /__/\\   \\
-           /___/  \\___\\
-              `-.__.-'
-```
+- utiliser des variables, des boucles et des fonctions ;
+- générer des couleurs et des nombres aléatoires ;
+- dessiner avec `turtle` et créer des animations ;
+- représenter des objets avec des classes ;
+- mettre à jour des positions et simuler le mouvement ;
+- lire, modifier et améliorer un programme existant.
 
-</div>
+## Exercices
 
-Un petit projet Python visuel qui simule un ciel de feu d'artifice avec des explosions colorées et des particules animées.
+### 1. Dessiner une spirale colorée
 
-## ✨ Aperçu
+Fichier : [`escargot_disco.py`](./escargot_disco.py)
 
-Ce programme crée une scène nocturne avec :
-- un fond sombre et immersif,
-- des étoiles en arrière-plan,
-- des fusées qui montent dans le ciel,
-- des explosions lumineuses en plusieurs couleurs,
-- des particules qui disparaissent progressivement.
-
-## 🎮 Contrôles
-
-- Clic gauche : lancer un feu d'artifice à l’emplacement du clic
-- Espace : pause / reprise
-- Escape : quitter
-
-## ⚙️ Prérequis
-
-Assurez-vous d’avoir Python installé, puis installez Pygame :
+Le script utilise `turtle` pour dessiner une spirale aux couleurs changeantes.
+Essaie de modifier la longueur des segments, l'angle de rotation ou le nombre
+d'étapes pour obtenir une nouvelle figure.
 
 ```bash
-pip install pygame
+python escargot_disco.py
 ```
 
-## ▶️ Lancer le projet
+### 2. Animer un escargot disco et un feu d'artifice
 
-Dans le dossier du projet, exécutez :
+Fichier : [`escargot_disco_spectacle.py`](./escargot_disco_spectacle.py)
+
+Cet exercice reprend la spirale et ajoute un ciel étoilé ainsi qu'un final de
+gerbes colorées. Les particules se déplacent, ralentissent visuellement et
+finissent par disparaître.
+
+```bash
+python escargot_disco_spectacle.py
+```
+
+### 3. Programmer un feu d'artifice
+
+Fichier : [`feu_artifice.py`](./feu_artifice.py)
+
+Avec Pygame, construis une scène animée où des fusées montent et éclatent en
+particules. Le code permet notamment d'étudier les classes, la gravité, le
+hasard et la mise à jour d'une animation.
+
+Installe Pygame si nécessaire :
+
+```bash
+python -m pip install pygame
+```
+
+Puis lance l'exercice :
 
 ```bash
 python feu_artifice.py
 ```
 
-## 📁 Fichiers du projet
+## Pour aller plus loin
 
-- `feu_artifice.py` : code principal du jeu
-- `README.md` : documentation du projet
+Choisis un script et apporte-lui une amélioration :
 
-## 🌟 Résultat
+- ajoute une nouvelle couleur ou une nouvelle forme ;
+- change la vitesse ou la taille de l'animation ;
+- ajoute des étoiles ou des particules ;
+- crée une fonction pour éviter de répéter du code ;
+- teste plusieurs valeurs et observe leur effet.
 
-Le programme affiche une animation fluide avec des effets lumineux, des transitions dynamiques et des couleurs variées.
+## Prérequis
 
-## 👤 Auteur
+- Python 3 installé ;
+- Pygame uniquement pour `feu_artifice.py`.
 
-Projet personnel réalisé en Python.
+Les exercices `turtle` utilisent une bibliothèque incluse avec Python.
