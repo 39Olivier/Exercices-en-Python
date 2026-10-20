@@ -15,7 +15,7 @@ pen = turtle.Turtle()
 pen.speed(6)  # 0 signifie : dessiner le plus vite possible.
 pen.width(6)  # Epaisseur du trait.
 
-# Repete les instructions 180 fois pour tracer la spirale.
+# Repete les instructions n fois pour tracer la spirale.
 for step in range(100):
 	# Fait varier la couleur a chaque tour pour obtenir un arc-en-ciel.
 	hue = step / 50
